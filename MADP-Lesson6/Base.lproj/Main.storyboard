@@ -33,6 +33,9 @@
                                     <constraint firstAttribute="width" constant="46" id="UaS-Ng-xT3"/>
                                 </constraints>
                                 <state key="normal" title="Select"/>
+                                <connections>
+                                    <action selector="OnButtonPressed:" destination="X46-W3-vBM" eventType="touchUpInside" id="cPK-QI-EPC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -45,6 +48,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Date" image="clockicon" id="OrK-o0-wys"/>
+                    <connections>
+                        <outlet property="datePicker" destination="y7V-VY-LUJ" id="z3J-jt-PAb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pob-3p-SSp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
